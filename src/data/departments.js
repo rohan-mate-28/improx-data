@@ -13,6 +13,7 @@ export const departments = [
     title: 'Data Entry',
     shortDesc: 'Fast, accurate, and confidential data entry services for any volume of work.',
     icon: FaDatabase,
+    cardImage: '/data-entry.webp',
     heroImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Data Entry department delivers high-speed, error-free data entry solutions for businesses of every size. From digitizing paper records to managing large-scale databases, our trained operators ensure your information is accurate, organized, and ready to use.',
@@ -58,6 +59,7 @@ export const departments = [
     title: 'Web Scraping',
     shortDesc: 'Automated web data extraction to power your research, pricing, and lead generation.',
     icon: FaSpider,
+    cardImage: '/web-scrapping.webp',
     heroImage: 'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Web Scraping department builds custom data extraction tools and bots that collect publicly available web data at scale - accurately, ethically, and on schedule. We help businesses gather market intelligence, monitor competitors, and build datasets for analytics.',
@@ -103,6 +105,7 @@ export const departments = [
     title: 'Data Processing',
     shortDesc: 'Transform raw, unstructured data into clean, organized, and actionable information.',
     icon: FaCogs,
+    cardImage: '/data-processing.webp',
     heroImage: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Data Processing team converts raw and unstructured information into clean, validated, and well-organized datasets. We handle everything from data cleansing and formatting to validation and conversion, ensuring your data is ready for analysis or operational use.',
@@ -148,6 +151,7 @@ export const departments = [
     title: 'Data Analytics',
     shortDesc: 'Turn your data into insights with dashboards, reports, and trend analysis.',
     icon: FaChartLine,
+    cardImage: '/data-analytics.webp',
     heroImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Data Analytics department helps you make sense of your numbers. We build interactive dashboards, perform trend and statistical analysis, and provide reports that help you make confident, data-driven business decisions.',
@@ -193,6 +197,7 @@ export const departments = [
     title: 'Administrative Assistant',
     shortDesc: 'Reliable virtual assistance to manage your day-to-day administrative tasks.',
     icon: FaUserTie,
+    cardImage: '/Administrative-Assistant.webp',
     heroImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Administrative Assistant department provides skilled virtual assistants to manage your scheduling, communication, documentation, and back-office operations - so you can focus on growing your business.',
@@ -238,6 +243,7 @@ export const departments = [
     title: 'Data Services',
     shortDesc: 'End-to-end data management solutions including storage, security, and migration.',
     icon: FaServer,
+    cardImage: '/data-services.webp',
     heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80',
     overview:
       'Our Data Services department offers comprehensive data management solutions, including database creation, migration, backup, and security - ensuring your business data is safe, accessible, and well-structured.',

@@ -141,9 +141,17 @@ export default function Home() {
               className="card group p-8 flex flex-col"
               style={{ animationDelay: `${idx * 100}ms` }}
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary-600 to-accent-500 text-white text-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 shadow-lg shadow-primary-600/20">
-                <dept.icon />
-              </div>
+              <div className="overflow-hidden rounded-2xl mb-6">
+                  <img
+                    src={dept.cardImage}
+                    alt={dept.title}
+                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary-600 to-accent-500 text-white text-2xl mb-4 shadow-lg">
+                  <dept.icon />
+                </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-primary-600 transition-colors duration-200">
                 {dept.title}
               </h3>
