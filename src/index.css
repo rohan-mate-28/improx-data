@@ -39,3 +39,12 @@ body {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-accent-500 to-primary-700 bg-300% animate-gradient;
   }
 }
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
